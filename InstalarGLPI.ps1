@@ -63,7 +63,7 @@ Write-Host "Instalando GLPI Agent..."
 
 Start-Process `
     msiexec.exe `
-    -ArgumentList "/i `"$MSI`" /qn SERVER=https://suporte.zelusnet.com.br:8443 RUNNOW=1" `
+    -ArgumentList "/i `"$MSI`" /qn SERVER=https://suporte.zelusnet.com.br:8443/plugins/glpiinventory/ RUNNOW=1" `
     -Wait
 
 Start-Sleep 10
