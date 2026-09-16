@@ -1,0 +1,1 @@
+Write-Host "ZELUSNET - Teste GLPI Agent"
